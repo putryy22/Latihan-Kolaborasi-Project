@@ -1,0 +1,23 @@
+$judul: #c6538c;
+$latarbelakang: yellow;
+$tengah: center;
+$bg: rgba($latarbelakang, 0.88);
+$ungu: #713abe;
+$warna-hover: $judul;
+$jenis_font: "Lato", sans-serif;
+
+h1 {
+  color: $judul;
+  background-color: $bg;
+  text-align: $tengah;
+}
+
+.btn-primary {
+  background-color: $ungu;
+  &:hover {
+    background-color: $warna-hover;
+  }
+}
+body {
+  font-family: $jenis_font;
+}
